@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000
 
-// Single App
+// Single App for jenkins
 
 app.get('/', (req, res) => {
     res.send("Hello World");
